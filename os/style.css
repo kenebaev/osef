@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.plus-block{
+    display: flex;
+    justify-content: space-around;
+}
+.plus-title{
+    font-size: 25px;
+    line-height: 30px;
+    padding: 15px 0;
+    color: white;
+}
+.plus-text{
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.plus-content{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.plus-item{
+    position: relative;
+}
+.video-item{
+    margin: 55px 0;
+}
+.col-2{
+    width: 15%;
+    padding: 0 15px;
+}
+.slider-title{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 32px;
+    line-height: 36px;
+    padding-bottom: 66px;
+    position: relative;
+}
+.slider-title::after{
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 70px;
+    height: 2px;
+    background-color:#CFCFCF;
+    right: 0;
+    margin: 0 auto;
+    display:block;
+}
+.slider-item{
+    width: 14.2%;
+}
+.slider-price{
+    color: #FF4A32;
+    text-decoration: none;
+}
+.slider-link{
+    color: #FF4A32;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*footer*/
+.footer-link{
+    font-size: 13px;
+    line-height: 21px;
+    color: black;
+
+}
+.footer-title{
+    font-size: 20px;
+    line-height: 30px;
+}
+.footer-block{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    height: 329px;
+}
+.footer-menu{
+    display: flex;
+    flex-direction:column;
+}
+.footer-title{
+    padding-bottom: 10px;
+}
+.footer-text{
+    padding-top: 10px;
+}
+.footer-menu-2{
+    padding-top: 19px;
+}
+.footer-block{
+    background-color: #F7F7F7;
+}
+a{
+    color:#FF4A32 ;
+}
+.footer-block-2{
+    padding-top: 19px;
+}
+.norm{
+    font-size: 13px;
+    line-height: 19px;
+}
+.footer-icons{
+    list-style: none;
+    display: flex ;
+    justify-content: space-evenly;
+    padding: 0 140px;
+    margin-bottom: 27px;
+}
+.footer-icon:hover{
+    font-size: 17px;
+    transition: .6s;
+}
